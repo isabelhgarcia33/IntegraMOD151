@@ -430,4 +430,6 @@ phpBBSecurity_Guests();
 if ($_GET['lofi'] || $_COOKIE['lofi']) $lofi = 1;
 //Begin Lo-Fi Mod
 
-?>
+// IntegraMOD Ez ADR Integration
+include_once($phpbb_root_path . 'adr/includes/adr_functions_alone.'.$phpEx); 
+// END IntegraMOD Ez ADR Integration
